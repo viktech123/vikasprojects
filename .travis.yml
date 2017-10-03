@@ -1,8 +1,5 @@
 install: make get-deps
 ./configure && make && make test
 language: c
-compiler:
-  - clang
-  - gcc
-  before_install:
-  - test -n $CC && unset CC
+
+  
